@@ -1,0 +1,23 @@
+.header_menu ul li a {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+  color: #fff;
+}
+
+/* Introdução */
+
+.introducao {
+  width: 100%;
+  height: 380px;
+  background: url('../img/bg.jpg') no-repeat center;
+  background-size: cover;
+  margin-top: 96px;
+}
