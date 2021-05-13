@@ -60,4 +60,10 @@ p {
 }
 
 .quote-externo p {
+  font-style: italic;
+}
+
+.quote-externo cite {
+  font-style: normal;
+  font-weight: bold;
 }
