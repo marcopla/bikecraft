@@ -8,6 +8,21 @@ p {
   line-height: 20px;
 }
 
+.btn {
+  border: 3px solid #fec63e;
+  padding: 10px 30px;
+  color: #fec63e;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.btn:hover {
+  color: #fff;
+  border-color: #fff;
+}
 /* Header */
 
 .header {
@@ -56,6 +71,7 @@ p {
 .quote-externo {
   max-width: 320px;
   margin: 0 auto;
+  margin-bottom: 40px;
   color: white;
 }
 
@@ -63,7 +79,19 @@ p {
   font-style: italic;
 }
 
+.quote-externo p:before,
+.quote-externo p:after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 14px auto 10px auto;
+}
+
 .quote-externo cite {
   font-style: normal;
   font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
 }
