@@ -55,6 +55,7 @@ p {
   width: 100%;
   background: #fec63e;
   padding: 15px 0;
+  z-index: 10;
 }
 
 .header_menu {
@@ -164,4 +165,5 @@ p {
 }
 
 .call p {
+  margin-bottom: 20px;
 }
