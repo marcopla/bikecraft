@@ -299,11 +299,19 @@ img {
 
 .footer_redes ul li {
   display: inline-block;
+  margin-right: 10px;
 }
 
 .footer_redes ul li a {
   border: 3px solid #fec63e;
   display: block;
-  width: 40px;
-  height: 40px;
+  padding: 10px;
+}
+.footer_redes ul li a {
+  border-color: #fff;
+}
+.copy {
+  width: 100%;
+  background: #fec63e;
+  padding: 20px 0;
 }
