@@ -126,7 +126,12 @@ img {
   font-size: 14px;
   letter-spacing: 0.1em;
 }
-
+/*Introdução Interna*/
+.introducao-interna {
+  width: 100%;
+  margin-top: 92px;
+  height: 160px;
+}
 /*Produtos*/
 
 .produtos {
