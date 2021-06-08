@@ -51,6 +51,24 @@ img {
   background: #000;
   margin: 8px auto;
 }
+.subtitulo-interno {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.subtitulo-interno::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 8px 0;
+}
 /* Header */
 
 .header {
@@ -79,7 +97,9 @@ img {
 .header_menu ul li a:hover {
   color: #fff;
 }
-
+.header_menu ul li a.menu_ativo {
+  color: #fff;
+}
 /* Introdução */
 
 .introducao {
@@ -227,9 +247,6 @@ img {
   padding: 60px 0;
 }
 
-.qualidade img {
-  margin: 0 auto;
-}
 .qualidade:after {
   content: '';
   width: 634px;
@@ -241,12 +258,14 @@ img {
   right: 162px;
   z-index: -1;
 }
+
 .qualidade img {
   margin: 0 auto;
 }
 
 .qualidade_lista {
-  padding-top: 40px;
+  padding-top: 20px;
+  overflow: auto;
 }
 
 .qualidade_lista li {
