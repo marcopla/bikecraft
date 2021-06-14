@@ -37,3 +37,21 @@
 .produto_icone img {
   margin: 0;
 }
+
+.produto_info {
+  background: #000;
+}
+
+.produto_info p {
+  background: #fff;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 30px 40px;
+}
+
+.produto_info ul li {
+  background: #fec63e;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 20px;
+}
