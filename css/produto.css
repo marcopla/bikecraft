@@ -46,6 +46,7 @@
   background: #fff;
   font-size: 18px;
   line-height: 25px;
+  height: 180px;
   padding: 30px 40px;
 }
 
@@ -64,7 +65,7 @@
 }
 
 .produto_info ul li:nth-child(1),
-.produto_info ul li:nth-child(1) {
+.produto_info ul li:nth-child(2) {
   margin-bottom: 2px;
 }
 
