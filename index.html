@@ -8,11 +8,28 @@
 
 <body>
   <h1>Bikcraf Bicicletas Personalizadas</h1>
-  <form action="">
-    <label for="">Nome</label>
-    <input type="text">
-    <label for="">E-mail</label>
-    <input type="text">
+
+  <form action="" method="POST" name="form">
+
+    <div>
+      <label for="nome">Nome*</label>
+      <input type="text" name="nome" id="nome" required>
+    </div>
+
+    <div>
+      <label for="email">E-mail*</label>
+      <input type="email" name="email" id="email" required>
+    </div>
+
+    <p>Escolha a bicileta</p>
+    <div>
+      <label for="retro"><input id="retro" type="checkbox" value="retro">Retro</label>
+      <label for="passeio"><input id="passeio" type="checkbox" value="passeio">Passeio</label>
+      <label for="esporte"><input id="esporte" type="checkbox" value="esporte">Esporte</label>
+    </div>
+    <label for="mensagem">Mensagem</label>
+    <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+    <button>Enviar</button>
   </form>
 </body>
 
