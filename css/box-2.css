@@ -20,6 +20,7 @@ footer {
   height: 60px;
   padding: 20px 0;
   background: #ff3333;
+  clear: both;
 }
 
 article {
