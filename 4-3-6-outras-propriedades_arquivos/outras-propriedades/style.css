@@ -13,4 +13,12 @@ div {
   width: 200px;
   height: 400px;
   margin: 0 auto;
+  background: url('./esporte-4.jpeg') no-repeat center;
+  background-size: cover;
+  box-shadow: inset 10px 10px 10px;
+}
+
+div {
+  visibility: hidden;
+  display: none;
 }
