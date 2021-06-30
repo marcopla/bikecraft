@@ -22,6 +22,29 @@
     width: 26px;
     height: 26px;
   }
+
+  /* Produtos */
+
+  .produto_item h2 {
+    top: -150px;
+    margin-bottom: -56px;
+  }
+
+  .produto_icone {
+    padding: 41px 0px;
+  }
+
+  .produto_info p {
+    font-size: 14px;
+    line-height: 20px;
+    height: 122px;
+    padding: 20px 30px;
+  }
+
+  .produto_info ul li {
+    width: 181px;
+    /* é a metade dos px do grid-8 */
+  }
 }
 /* smartphone */
 @media only screen and (max-width: 787px) {
@@ -53,6 +76,10 @@
     border-color: #fff;
   }
 
+  .header_menu ul li a.menu_ativo {
+    border-color: #fff;
+  }
+
   /* Introdução */
 
   .introducao {
@@ -66,6 +93,11 @@
     font-size: 36px;
   }
 
+  /* Introdução Interna */
+
+  .introducao-interna {
+    margin-top: 0px;
+  }
   /* Call */
 
   .call {
@@ -76,5 +108,58 @@
 
   .qualidade:after {
     display: none;
+  }
+
+  /* Sobre */
+
+  .missao_sobre p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 0px;
+  }
+
+  .missao_sobre ul li {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  /* Produtos */
+
+  .produto_item h2 {
+    top: -100px;
+    margin-bottom: -68px;
+  }
+
+  .produto_icone {
+    padding: 41px 0;
+  }
+
+  .produto_info p {
+    font-size: 14px;
+    line-height: 20px;
+    height: auto;
+    padding: 20px 30px;
+  }
+
+  .produto_info ul li {
+    padding-top: 14px;
+    width: 149px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .form {
+    padding-right: 0px;
+  }
+
+  .orcamento_dados ul {
+    padding-right: 0px;
+  }
+
+  /* Contato */
+
+  .contato_form {
+    padding-right: 0px;
+    margin-bottom: 40px;
   }
 }
