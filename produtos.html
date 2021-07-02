@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/produtos.css">
   <link rel="stylesheet" href="css/responsivo.css">
-
+  <script>document.documentElement.classList.add('js');</script>
 
   <title>Bickcraft - Produtos</title>
 </head>
@@ -33,11 +33,11 @@
   </header>
   <section class="introducao-interna interna_produtos">
     <div class="container">
-      <h1>Produtos</h1>
-      <p>conheça todos nossos produtos</p>
+      <h1 data-anime="400" class="fadeInDown">Produtos</h1>
+      <p data-anime="800" class="fadeInDown">conheça todos nossos produtos</p>
     </div>
   </section>
-  <section class="container produto_item">
+  <section class="container produto_item fadeInDown" data-anime="1200">
     <div class="grid-11">
       <img src="./img/produtos/bikcraft-passeio-1.jpg" alt="Bickcraft Passeio">
       <h2>Passeio</h2>
@@ -155,6 +155,8 @@
       </div>
     </div>
   </footer>
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
